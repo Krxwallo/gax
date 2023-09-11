@@ -2,6 +2,11 @@
 Small rust command-line app to extract the `PDF` attachments from a `.goodnotes` file
 (from the [GoodNotes App](https://www.goodnotes.com/)).
 
+### Usage
+```bash
+gax <goodnotes-file> <output-dir>
+```
+
 ### How this works
 [GoodNotes](https://www.goodnotes.com/) files are basically zip-archives containing
 the following directories (and files):
